@@ -28,7 +28,7 @@ items = (week.find_all(class_='tombstone-container'))
 period_names =[item.find(class_='period-name').get_text() for item in items]
 short_desc =[item.find(class_='short-desc').get_text() for item in items]
 temperature =[item.find(class_='temp').get_text() for item in items]
-#print(period_names)
+#print(period_names)                                                    #good checks
 #print(short_desc)
 #print(temperature)
 
